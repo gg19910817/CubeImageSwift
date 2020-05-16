@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		84F63683246EBFE20092E5EB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F63682246EBFE20092E5EB /* ImageViewController.swift */; };
 		FFB3B2E37EE1A1E850EC3C27 /* Pods_CubeImageSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C43BF3B25B6A702B01F642 /* Pods_CubeImageSwift_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		607FACE51AFB9204008FA782 /* CubeImageSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubeImageSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		84F63682246EBFE20092E5EB /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		8DBC1AA316E738F6F2B7A722 /* CubeImageSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CubeImageSwift.podspec; path = ../CubeImageSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9235489D8802374D3B473FFF /* Pods-CubeImageSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeImageSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CubeImageSwift_Tests/Pods-CubeImageSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93E9C4539EC50ED252086F1B /* Pods-CubeImageSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeImageSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-CubeImageSwift_Example/Pods-CubeImageSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				84F63688246F684E0092E5EB /* Image */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -148,6 +151,14 @@
 				5D26A32F00BF3D589874FA24 /* Pods-CubeImageSwift_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		84F63688246F684E0092E5EB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				84F63682246EBFE20092E5EB /* ImageViewController.swift */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 		BFD4D36CA084A649381BA5DD /* Frameworks */ = {
@@ -332,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				84F63683246EBFE20092E5EB /* ImageViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
